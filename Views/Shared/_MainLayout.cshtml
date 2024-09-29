@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Layout</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Main Layout</h1>
+            <nav>
+                <a href="/Home/Action1">Action 1</a> |
+                <a href="/Home/Action2">Action 2</a>
+            </nav>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
